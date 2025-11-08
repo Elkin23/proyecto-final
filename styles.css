@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #111;
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* ===== HERO (ACTUALIZADO CON IMAGEN DE FONDO) ===== */
+.hero {
+    /* **PROPIEDADES DE FONDO DE IMAGEN** */
+    background-image: url('../imagenes/fondo1.jpg'); /* ⬅️ ¡REVISA ESTA RUTA! */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Overlay para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-blend-mode: overlay; 
+
+    /* Centrado de Contenido y Altura */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Color de texto blanco para contraste */
+
+    padding: 0 1rem;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: inherit; /* Hereda el color blanco */
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: inherit; /* Hereda el color blanco */
+}
+
+.hero button {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #333;
+}
+
+/* ===== PRODUCTOS ===== */
+.seccion {
+    margin: 3rem auto;
+    padding: 1rem 3rem;
+    /* La regla .seccion h2 {} se puede quitar ya que el h2 fue eliminado del JS */
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.producto {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.producto h3 {
+    font-size: 1rem;
+    margin-top: 0.8rem;
+}
+
+.producto p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+.precio {
+    display: block;
+    margin-top: 0.6rem;
+    font-weight: bold;
+    color: #000;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .productos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+}
