@@ -18,29 +18,29 @@ const descripciones = [
     "Estos tenis adidas Initiation se han fabricado para ayudarte a encontrar tu ritmo en la cancha.",
     "Las adidas Gazelle Indoor Collegiate Green Preloved Yellow le dan un toque rastafari fresco a tu look.",
     "Guayos adidas Predator, diseñados para marcar goles.",
-    "Clásico de lona reinventado con plantillas de espuma viscoelástica.",
-    "Modelo exclusivo de diseñador con detalles de cuero italiano.",
-    "Versión impermeable para clima frío, mantiene tus pies secos y cálidos.",
-    "Innovadora suela dividida para una flexibilidad y tracción inigualables.",
-    "Unisex, ideal para entrenamiento cruzado y levantamiento de pesas.",
-    "Estilo vintage de los 80, combinando colores vibrantes y materiales premium.",
-    "Diseño aerodinámico inspirado en la velocidad, para el corredor más rápido.",
-    "Colaboración especial con amortiguación visible y detalles reflectantes.",
-    "Zapatilla con refuerzos para el skate, durabilidad probada en trucos.",
-    "Diseño de corte alto con soporte extra para el tobillo.",
-    "Transpirable y ligera, la mejor opción para el verano.",
-    "Modelo personalizable con parches y cordones intercambiables.",
-    "Edición 'Glow in the dark', que brilla en la oscuridad.",
-    "Zapatilla de estilo casual con un toque formal, versátil para cualquier ocasión.",
-    "Tecnología de absorción de impacto, protege tus rodillas y articulaciones.",
-    "Hecha de punto (knit) elástico que se adapta a la forma del pie.",
-    "Suela gruesa para mayor altura y un estilo 'chunky'.",
-    "Zapatilla liviana con sistema de ventilación superior.",
-    "Diseño camuflado para el estilo militar o urbano más discreto.",
-    "Versión con cierre de velcro, rápida y fácil de poner.",
-    "Edición con detalles metálicos, para un acabado lujoso.",
-    "Modelo de edición anual conmemorativa, pieza de colección.",
-    "La zapatilla más vendida del año, comodidad garantizada."
+    "Las PRO MAX estan diseñadas para elevar tu rendimiento en el campo de césped.",
+    "Guayos para los jóvenes jugadores que practican en terrenos naturales y sintéticos.",
+    "Tanto si estás dando tus pasos diarios como entrenando para tu próxima carrera, hazlo con estilo y extrema comodidad.",
+    "Diseñadas para entrenamientos de media maratón y maratón completa, estas zapatillas ofrecen comodidad en todo momento.",
+    "El modelo FuelCell Rebel v5 fue diseñado para lucir y sentirse rápido.",
+    "La amortiguación responsiva de los Pegasus proporciona una pisada enérgica para correr a diario en pavimento.",
+    "La amortiguación visible, que se completa con colores fáciles de combinar, aporta comodidad a tu recorrido.",
+    "El calzado de soporte neutro con Nike Air elástico y más espacio en el antepié brinda una sensación cómoda y amortiguada.",
+    "La combinación de colores de las Air Jordan 1 Low viene con el Color Block de siempre, pero con los toques especiales que solo Scott y Fujiwara podían crear.",
+    "Con sus líneas simples, el look de atletismo tradicional y, por supuesto, la amortiguación Air visible, el Nike Air Max SC es el toque final perfecto para cualquier atuendo.",
+    "Zapatillas deportivas nike para mujer w nike renew in season tr 10.",
+    "Los AJ4 “Rare Air” rinden homenaje a los comienzos inesperados.",
+    "Inspirada en el AJ1 original, esta edición de corte mid mantiene el look icónico que te encanta, y los colores selectos y el cuero impecable le dan una identidad distintiva.",
+    "Las AJ3, un clásico desde que MJ los lleva, ponen un estilo legendario en tus pies.",
+    "Blanco, gris, piel de becerro, motivo Jumpman característico, puntera redonda, cierre con agujetas en la parte delantera, plantilla con logo y suela de goma.",
+    "las Air Jordan 11 Legend Blue tienen una profunda conexión con el panorama cultural y deportivo de la década de 1990.",
+    "La tecnología New Charged Cushioning proporciona una respuesta máxima, manteniendo la comodidad y la durabilidad durante el rendimiento.",
+    "Los colores te recuerdan que sea cual sea el deporte que apoyes, siempre estás en el equipo Reebok.",
+    "La parte superior mezcla materiales para brindar textura y profundidad adicionales y darle una apariencia en capas.",
+    "El Nike Air Max 1 x Cactus Jack es todo un homenaje a la superación de límites que combina detalles de estilo tradicional con looks todavía por pulir.",
+    "La silueta aerodinámica y de caña baja de la 550, con su versión de diseño limpio y resistente de finales de los 80.",
+    "Tennis Adidas Yezzy Boost 700 Carbon Blue.",
+    "En tonos café terciopelo y moca oscuro, Travis Scott vuelve a darle un giro inesperado a los AJ1."
 ];
 
 // Array de 30 NOMBRES personalizados. ¡DEBES EDITAR ESTOS NOMBRES!
@@ -52,29 +52,29 @@ const nombresModelos = [
     "Adidas Initiation",         // Modelo 5
     "Adidas Gazelle Indor Collegiate",        // Modelo 6
     "Adidas Predator Elite",          // Modelo 7
-    "Gua 3.0 Fly",          // Modelo 8
-    "New R. Xpress",        // Modelo 9
-    "New R. R2 Pro",        // Modelo 10 (Se ve en la imagen que subiste)
-    "New R. R3 Trainer",    // Modelo 11 (Se ve en la imagen que subiste)
-    "Nike Air Zoom Pro",    // Modelo 12 (Se ve en la imagen que subiste)
-    "Nike Max Run 2",       // Modelo 13
-    "Nike Tech Racer",      // Modelo 14
-    "Travis Scott Low",     // Modelo 15
-    "Auis Pro Skate",       // Modelo 16
-    "Basq Pro Court",       // Modelo 17
-    "Basq Summer",          // Modelo 18
-    "Basq 360 Knit",        // Modelo 19
-    "Descarga Custom",      // Modelo 20
-    "Gua Formal Slip",      // Modelo 21
-    "Gua Impact Zero",      // Modelo 22
-    "Gua Knit Adapt",       // Modelo 23
-    "New R. Chunky",        // Modelo 24
-    "New R. Aero",          // Modelo 25
-    "New R. Camo",          // Modelo 26
-    "New R. Velcro",        // Modelo 27
+    "Guayo Pro Max",          // Modelo 8
+    "Guayos Kipsta Viralto",        // Modelo 9
+    "New Balance Kaiha Road",        // Modelo 10 
+    "New Balance SuperComp Trainer V3",    // Modelo 11 
+    "New Balance FuelCell Rebel V5",    // Modelo 12 
+    "Nike Pegasus 41",       // Modelo 13
+    "Nike Air Max 90",      // Modelo 14
+    "Nike Air Winflo",     // Modelo 15
+    "Travis Scott x Fragment",       // Modelo 16
+    "Nike Air Max SC",       // Modelo 17
+    "Nike Renew",          // Modelo 18
+    "Air Jordan 4 Rare Air",        // Modelo 19
+    "Air Jordan 1 Mid",      // Modelo 20
+    "Air Jordan 3 Retro",      // Modelo 21
+    "Air Jordan 3 White Cement",      // Modelo 22
+    "Air Jordan 11 Retro Legends Blue",       // Modelo 23
+    "Tenis Running Charged Quicker",        // Modelo 24
+    "Reebok Classic C Revenge",          // Modelo 25
+    "Reebok Classic Glide",          // Modelo 26
+    "Air Max 1 Cactus Jack x Travis Scott",        // Modelo 27
     "New Balance 550",       // Modelo 28
-    "Nike Anniversary",     // Modelo 29
-    "Travis Bestseller"     // Modelo 30
+    "Adidas Yezzy Boost 700",     // Modelo 29
+    "Air Jordan 1 x Travis Scott"     // Modelo 30
 ];
 
 // Array de 30 PRECIOS personalizados (sin formato, solo números). ¡DEBES EDITAR ESTOS PRECIOS!
