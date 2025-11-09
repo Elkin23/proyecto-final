@@ -1,23 +1,23 @@
 // Lista de los nombres de tus 30 archivos de imagen.
 // ¡IMPORTANTE! Revisa y completa esta lista con los nombres exactos de tus 30 imágenes.
 const nombresImagenes = [
-    "Air_Jordan.jpeg", "basq.jpeg", "basq2.jpeg", "basq3.jpeg", "descarga.jpeg", 
+    "basq.jpeg", "basq2.jpeg", "basq3.jpeg", "adi2.jpeg", "adi3.jpeg", "adi.jpeg",
     "gua.jpeg", "gua2.jpeg", "gua3.jpeg", "new r.jpeg", "new r2.jpeg", 
-    "new r3.jpeg", "nike.jpeg", "nike2.jpeg", "nike3.jpeg", "travis.jpeg",
-    "auis.jpeg", "basq.jpeg", "basq2.jpeg", "basq3.jpeg", "descarga.jpeg",
-    "gua.jpeg", "gua2.jpeg", "gua3.jpeg", "new r.jpeg", "new r2.jpeg", 
-    "new r3.jpeg", "nike.jpeg", "nike2.jpeg", "nike3.jpeg", "travis.jpeg"
+    "new r3.jpeg", "nike.jpeg", "nki4.webp", "nki2.webp", "travis.jpeg",
+    "nki3.webp", "nki.webp", "jor4.jpg", "jor.jpg",
+    "jor2.jpg", "jor3.jpg", "jor5.jpg", "und.jpg", "ree.jpg", 
+    "ree2.jpg", "travis3.jpg", "nb.webp", "yee.webp", "travis2.jpg"
 ];
 
 // Array de 30 DESCRIPCIONES únicas para cada producto.
 const descripciones = [
-    "La zapatilla icónica que define la historia del baloncesto y el estilo urbano.",
-    "Diseño minimalista con amortiguación de alto rendimiento, ideal para el running diario.",
-    "Modelo retro con plataforma, perfecto para un look audaz y cómodo.",
-    "Edición limitada con suela de carbono, máxima ligereza para atletas de élite.",
-    "Calzado ecológico fabricado con materiales reciclados, estilo sostenible.",
-    "Zapatilla de trail con agarre extremo, lista para cualquier aventura en montaña.",
-    "Diseño futurista con tecnología de auto-ajuste y luces LED incorporadas.",
+    "La TWO WXY v4 es el primer modelo de baloncesto de New Balance que combina Fresh Foam X y FuelCell.",
+    "Calzado exclusivo, provisto de una velocidad impresionante y con una amortiguación elástica.",
+    "Decimosexto zapato de la firma de Kevin Durant con Nike Basketbal.",
+    "Calzado diseñado para uso en canchas de baloncesto al aire libre y conocido por su durabilidad.",
+    "Estos tenis adidas Initiation se han fabricado para ayudarte a encontrar tu ritmo en la cancha.",
+    "Las adidas Gazelle Indoor Collegiate Green Preloved Yellow le dan un toque rastafari fresco a tu look.",
+    "Guayos adidas Predator, diseñados para marcar goles.",
     "Clásico de lona reinventado con plantillas de espuma viscoelástica.",
     "Modelo exclusivo de diseñador con detalles de cuero italiano.",
     "Versión impermeable para clima frío, mantiene tus pies secos y cálidos.",
@@ -45,13 +45,13 @@ const descripciones = [
 
 // Array de 30 NOMBRES personalizados. ¡DEBES EDITAR ESTOS NOMBRES!
 const nombresModelos = [
-    "Jordan Legacy High",    // Modelo 1
-    "Basq Runner Pro",      // Modelo 2
-    "Basq City V2",         // Modelo 3
-    "Basq Carbon X",        // Modelo 4
-    "Descarga Vintage",     // Modelo 5
-    "Gua Trail GTX",        // Modelo 6
-    "Gua 2.0 Max",          // Modelo 7
+    "New Balance TWO WXY V5",    // Modelo 1
+    "Básquet Nike Freak 5",      // Modelo 2
+    "Nike KD 16 Aunt Pearl",     // Modelo 3
+    "Adidas Dame 8 Extply",      // Modelo 4
+    "Adidas Initiation",         // Modelo 5
+    "Adidas Gazelle Indor Collegiate",        // Modelo 6
+    "Adidas Predator Elite",          // Modelo 7
     "Gua 3.0 Fly",          // Modelo 8
     "New R. Xpress",        // Modelo 9
     "New R. R2 Pro",        // Modelo 10 (Se ve en la imagen que subiste)
@@ -72,7 +72,7 @@ const nombresModelos = [
     "New R. Aero",          // Modelo 25
     "New R. Camo",          // Modelo 26
     "New R. Velcro",        // Modelo 27
-    "Nike Lux Metal",       // Modelo 28
+    "New Balance 550",       // Modelo 28
     "Nike Anniversary",     // Modelo 29
     "Travis Bestseller"     // Modelo 30
 ];
