@@ -1,5 +1,4 @@
-// Lista de los nombres de tus 30 archivos de imagen.
-// ¡IMPORTANTE! Revisa y completa esta lista con los nombres exactos de tus 30 imágenes.
+
 const nombresImagenes = [
     "basq.jpeg", "basq2.jpeg", "basq3.jpeg", "adi2.jpeg", "adi3.jpeg", "adi.jpeg",
     "gua.jpeg", "gua2.jpeg", "gua3.jpeg", "new r.jpeg", "new r2.jpeg", 
@@ -43,44 +42,44 @@ const descripciones = [
     "En tonos café terciopelo y moca oscuro, Travis Scott vuelve a darle un giro inesperado a los AJ1."
 ];
 
-// Array de 30 NOMBRES personalizados. ¡DEBES EDITAR ESTOS NOMBRES!
+// Array de 30 NOMBRES de los productos
 const nombresModelos = [
-    "New Balance TWO WXY V5",    // Modelo 1
-    "Básquet Nike Freak 5",      // Modelo 2
-    "Nike KD 16 Aunt Pearl",     // Modelo 3
-    "Adidas Dame 8 Extply",      // Modelo 4
-    "Adidas Initiation",         // Modelo 5
-    "Adidas Gazelle Indor Collegiate",        // Modelo 6
-    "Adidas Predator Elite",          // Modelo 7
-    "Guayo Pro Max",          // Modelo 8
-    "Guayos Kipsta Viralto",        // Modelo 9
-    "New Balance Kaiha Road",        // Modelo 10 
-    "New Balance SuperComp Trainer V3",    // Modelo 11 
-    "New Balance FuelCell Rebel V5",    // Modelo 12 
-    "Nike Pegasus 41",       // Modelo 13
-    "Nike Air Max 90",      // Modelo 14
-    "Nike Air Winflo",     // Modelo 15
-    "Travis Scott x Fragment",       // Modelo 16
-    "Nike Air Max SC",       // Modelo 17
-    "Nike Renew",          // Modelo 18
-    "Air Jordan 4 Rare Air",        // Modelo 19
-    "Air Jordan 1 Mid",      // Modelo 20
-    "Air Jordan 3 Retro",      // Modelo 21
-    "Air Jordan 3 White Cement",      // Modelo 22
-    "Air Jordan 11 Retro Legends Blue",       // Modelo 23
-    "Tenis Running Charged Quicker",        // Modelo 24
-    "Reebok Classic C Revenge",          // Modelo 25
-    "Reebok Classic Glide",          // Modelo 26
-    "Air Max 1 Cactus Jack x Travis Scott",        // Modelo 27
-    "New Balance 550",       // Modelo 28
-    "Adidas Yezzy Boost 700",     // Modelo 29
-    "Air Jordan 1 x Travis Scott"     // Modelo 30
+    "New Balance TWO WXY V5",    
+    "Básquet Nike Freak 5",     
+    "Nike KD 16 Aunt Pearl",     
+    "Adidas Dame 8 Extply",      
+    "Adidas Initiation",         
+    "Adidas Gazelle Indor Collegiate",        
+    "Adidas Predator Elite",          
+    "Guayo Pro Max",          
+    "Guayos Kipsta Viralto",        
+    "New Balance Kaiha Road",       
+    "New Balance SuperComp Trainer V3",   
+    "New Balance FuelCell Rebel V5",    
+    "Nike Pegasus 41",       
+    "Nike Air Max 90",      
+    "Nike Air Winflo",     
+    "Travis Scott x Fragment",       
+    "Nike Air Max SC",       
+    "Nike Renew",          
+    "Air Jordan 4 Rare Air",        
+    "Air Jordan 1 Mid",      
+    "Air Jordan 3 Retro",      
+    "Air Jordan 3 White Cement",      
+    "Air Jordan 11 Retro Legends Blue",      
+    "Tenis Running Charged Quicker",        
+    "Reebok Classic C Revenge",          
+    "Reebok Classic Glide",         
+    "Air Max 1 Cactus Jack x Travis Scott",        
+    "New Balance 550",       
+    "Adidas Yezzy Boost 700",     
+    "Air Jordan 1 x Travis Scott"     
 ];
 
-// Array de 30 PRECIOS personalizados (sin formato, solo números). ¡DEBES EDITAR ESTOS PRECIOS!
+// Array de los 30 PRECIOS 
 const preciosModelos = [
     520000, 480000, 550000, 610000, 420000, 
-    530000, 490000, 560000, 450000, 464027, // El precio 464027 corresponde al Modelo 10 de tu imagen
+    530000, 490000, 560000, 450000, 464027, 
     535938, 547256, 495000, 580000, 650000, 
     430000, 500000, 470000, 510000, 555000, 
     440000, 570000, 590000, 515000, 485000, 
@@ -88,23 +87,22 @@ const preciosModelos = [
 ];
 
 
-// Seleccionamos el contenedor principal
+// este es el contenedor principal
 const contenedor = document.getElementById("contenedor-productos");
 
-// Creamos 10 secciones (Contenedores)
+
 for (let s = 1; s <= 10; s++) {
     const seccion = document.createElement("section");
     seccion.classList.add("seccion");
 
-    // NOTA: El código que crea y añade el título <h2> fue eliminado.
+ 
     
     // Contenedor de los 3 productos
     const grid = document.createElement("div");
     grid.classList.add("productos-grid");
 
-    // Creamos 3 productos por sección
+    // Creo 3 productos por sección
     for (let i = 1; i <= 3; i++) {
-        // 'numero' irá de 1 a 30
         const numero = (s - 1) * 3 + i;
 
         // Obtenemos los datos del producto (índice 0 a 29)
@@ -131,7 +129,7 @@ for (let s = 1; s <= 10; s++) {
     contenedor.appendChild(seccion);
 }
 
-// Botón "Comprar ahora" hace scroll hacia las secciones
+
 document.getElementById("shopNow").addEventListener("click", () => {
     window.scrollTo({
         top: contenedor.offsetTop - 50,
